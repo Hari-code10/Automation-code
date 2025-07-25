@@ -25,9 +25,9 @@ public class Peelofforder extends Mytest {
 			
 			Thread.sleep(300);
 			
-			//driver.findElement(By.id("searchDate")).sendKeys("14-07-2025");
+			driver.findElement(By.id("searchDate")).sendKeys("14-07-2025");
 			
-			//Thread.sleep(300);
+			Thread.sleep(300);
 			
 			driver.findElement(By.id("submitDate")).click();
 			

@@ -36,8 +36,7 @@ public class Batch$quality extends Mytest {
 			
 			Thread.sleep(200);
 			
-			driver.findElement(By.xpath("//h5[text()='Batch Quality']/following-sibling::button")).click();
-				
+			driver.findElement(By.xpath("//h5[text()='Batch Quality']/following-sibling::button")).click();		
 		}
 	}
 }
