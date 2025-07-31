@@ -44,8 +44,8 @@ public class Mytest {
 //			 Emptyshift empty = new Emptyshift();
 //			 empty.shiftconfirmation();
 			 
-			 Gasshifthistory history = new Gasshifthistory();
-			 history.shifthistory();
+//			 Gasshifthistory history = new Gasshifthistory();
+//			 history.shifthistory();
 			 
 //			 Gasshift othergas = new Gasshift();
 //			 othergas.Gas();
@@ -53,9 +53,11 @@ public class Mytest {
 //			 Peelofforder order = new Peelofforder();
 //			 order.order();
 			 
-			 Gascalendar gascal = new Gascalendar();
-			 gascal.calendar();
+//			 Gascalendar gascal = new Gascalendar();
+//			 gascal.calendar();
 			 
+			 QAstatus qastatus = new QAstatus();
+			 qastatus.status();
 		
 	}
 }

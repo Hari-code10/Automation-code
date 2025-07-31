@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.Select;
 public class createcase extends Mytest {
 
     @SuppressWarnings("deprecation")
+    
 	public void cases() throws InterruptedException {
 
         try {
@@ -33,7 +34,7 @@ public class createcase extends Mytest {
 
             WebElement Out = driver.findElement(By.id("notObOption"));
 
-            Thread.sleep(1000);
+            Thread.sleep(1000); 
 
             if (Out.isDisplayed()) {
                 Select Outt = new Select(Out);
