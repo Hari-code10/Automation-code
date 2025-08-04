@@ -35,16 +35,12 @@ public class Peelofforder extends Mytest {
 			
 			driver.findElement(By.xpath("//a[@class='back-button']//button[1]")).click();
 			
-			
 		}
 		catch(Exception e) {
 			 
 			System.out.println(e.getMessage());
 		}
-		
-		
-		
-		
+			
 	}
 
 }

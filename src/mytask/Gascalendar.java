@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 
 public class Gascalendar extends Mytest {
 	
-	private String calendars;
 
 	public void calendar() throws InterruptedException {
 		

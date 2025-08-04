@@ -60,8 +60,7 @@ public class QAstatus  extends Mytest{
 		catch(Exception e) {
 			
 			System.out.println(e.getMessage());
-		}
-			
+		}	
 	}
 	
 }
