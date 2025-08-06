@@ -32,32 +32,33 @@ public class Mytest {
 			 open op = new open();
 			 op.opened(); 
 			
-//			 toggle Te = new toggle();
-//			 Te.enable();
+			 toggle Te = new toggle();
+			 Te.enable();
 			
-//			 createcase create = new createcase();
-//			 create.cases();	
+			 createcase create = new createcase();
+			 create.cases();	
 			 
-//			 Batch$quality batch = new Batch$quality();
-//			 batch.batchqualitycasee();
+			 Batch$quality batch = new Batch$quality();
+		 	batch.batchqualitycasee();
 			 
-//			 Emptyshift empty = new Emptyshift();
-//			 empty.shiftconfirmation();
+		 	Emptyshift empty = new Emptyshift();
+			 empty.shiftconfirmation();
 			 
-//			 Gasshifthistory history = new Gasshifthistory();
-//			 history.shifthistory();
+			 Gasshifthistory history = new Gasshifthistory();
+			 history.shifthistory();
 			 
-//			 Gasshift othergas = new Gasshift();
-//			 othergas.Gas();
+			 Gasshift othergas = new Gasshift();
+			 othergas.Gas();
 			 
-//			 Peelofforder order = new Peelofforder();
-//			 order.order();
+			 Peelofforder order = new Peelofforder();
+			 order.order();
 			 
-//			 Gascalendar gascal = new Gascalendar();
-//			 gascal.calendar();
+			 Gascalendar gascal = new Gascalendar();
+			 gascal.calendar();
 			 
 			 QAstatus qastatus = new QAstatus();
 			 qastatus.status();
 		
 	}
 }
+
